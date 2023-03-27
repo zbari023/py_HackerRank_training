@@ -11,11 +11,14 @@ class Noteofstudent():
         print('Now you can enter his Notes and when you press 00 is to be end of your Notes :')
         while True:
             Note = float(input('Note: '))
-            if Note == 00:  # if you press 00 then it will end the loop and give you the list
+            if Note == 00:                 # if you press 00 then it will end the loop and give you the list
                 print(f'closed the Notes of student {self.name} : ')
                 break
             self.Note_list.append(Note)
-            print(self.Note_list)
-            avr = sum(self.Note_list)
-            print(f'{self.name} has the summe of his Notes = {avr}')
-            print(f'{self.name} has the Average of {avr / len(self.Note_list)}')
+        print(self.Note_list)
+        avr = sum(self.Note_list)
+        print(f'{self.name} has the summe of his Notes = {avr}')
+        print(f'{self.name} has the Average of {avr/len(self.Note_list)}')
+
+c1 = Noteofstudent()                       # calling the class
+c1.listing_Notes()                         # calling the method                      # calling the method
