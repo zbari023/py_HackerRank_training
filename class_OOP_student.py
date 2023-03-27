@@ -22,3 +22,12 @@ class Noteofstudent():
 
 c1 = Noteofstudent()                       # calling the class
 c1.listing_Notes()                         # calling the method                      # calling the method
+
+
+'''
+j = []
+names = ["ziad", "bari", "ibrahim"]
+for i in names:
+    j.append(len(i))
+print(j) 
+'''
