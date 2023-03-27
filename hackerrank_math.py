@@ -1,10 +1,11 @@
 import math
+import cmath
 for i in range(1,5):
   print(f'{i}'*i)
 print('**** other way ****')
 for j in range(1,5): #More than 2 lines will result in 0 score. Do not leave a blank line also
     print(((10**j)//9)*j)
-
+print('*********')
 AB = int(input('enter AB= '))
 BC = int(input('enter BC= '))
 
@@ -14,3 +15,13 @@ phi = math.asin(MC/BC)
 phi_deg = math.degrees(phi)
 
 print(f"{math.ceil(phi_deg)}\N{DEGREE SIGN}")
+
+print('*********')
+
+z = complex(input('enter your complex number: '))
+real = z.real
+img = z.imag
+
+print(math.sqrt( (real**2 + img**2 )))
+phi =  math.atan(img / real)
+print(abs(complex(phi)) )
