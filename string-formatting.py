@@ -3,7 +3,7 @@ def formating(num):
     for i in range(1,num+1):
         print(f"{i}\t{format(i, 'o')}\t{format(i, 'x')}\t{format(i, 'b')}")
 
-formating(17)
+formating(2)
 '''
 num = int(input("Enter a decimal number: "))
 
