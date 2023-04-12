@@ -14,3 +14,5 @@ print(x*x*x**z)
 print(y)
 print(z)
 print(type(x))
+print(type(y))
+
