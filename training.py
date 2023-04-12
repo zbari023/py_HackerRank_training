@@ -4,4 +4,5 @@ line = "\n".join(line)
 print(line)
 x=5
 y=3
-print(x+y)
+z=4
+print(x+y+z)
